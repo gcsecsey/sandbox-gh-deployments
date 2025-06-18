@@ -14,8 +14,8 @@ jobs:
       - name: Upload the artifact
         uses: actions/upload-artifact@v4
         with:
-          name: failure9
+          name: failure
           path: |
             .
             !.git*
-          retention-days: 1
+          retention-days: 2
