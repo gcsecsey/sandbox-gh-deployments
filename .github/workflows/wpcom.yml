@@ -14,8 +14,8 @@ jobs:
       - name: Upload the artifact
         uses: actions/upload-artifact@v4
         with:
-          name: failure13
+          name: wpcom
           path: |
             .
             !.git*
-          retention-days: 2
+          retention-days: 1
