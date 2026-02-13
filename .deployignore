@@ -1,0 +1,8 @@
+# This is a comment
+## Another comment
+composer.json
+package.json
+
+# Empty line above should be ignored
+*.log
+node_modules/**
