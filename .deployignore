@@ -2,7 +2,8 @@
 ## Another comment
 composer.json
 package.json
+.deployignore
 
 # Empty line above should be ignored
 *.log
-node_modules/**
+/README.md
